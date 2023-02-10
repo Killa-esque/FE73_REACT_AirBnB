@@ -1,0 +1,33 @@
+.ant-card-cover {
+  height: 100%;
+}
+
+.paginationBtns {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.paginationBtns .next svg,
+.paginationBtns .previous svg {
+  background: hsl(187, 85%, 43%);
+  border-radius: 50%;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  padding: .5rem;
+  margin: 0 .3rem;
+}
+
+.paginationBtns a {
+  /* color: #fff !important; */
+  cursor: pointer;
+}
+
+.paginationBtns svg:active {
+  transform: scale(1.1);
+}
+
+li::marker {
+  display: none !important;
+}

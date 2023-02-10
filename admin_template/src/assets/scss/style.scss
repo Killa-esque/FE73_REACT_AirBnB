@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+// Base
+@import "./base/base";
+
+// Page
+@import "./pages/detail";
+@import "./pages/home";
+@import "./pages/login";
+@import "./pages/profile";
+@import "./pages/register";
+@import "./pages/roomlist";
+
+// Themes
+@import "./themes/mixin";
+@import "./themes/variable";
+
+// Component
+@import './components/header';
+@import './components/footer';
+
+// Template
+@import './template/_index.scss';
